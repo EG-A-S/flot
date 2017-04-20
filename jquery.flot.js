@@ -2872,7 +2872,7 @@ Licensed under the MIT license.
 
                         // use <= to ensure last point takes precedence
                         // (last generally means on top of)
-                        if (dist < smallestDistance) {
+                        if (dist <= smallestDistance) {
                             smallestDistance = dist;
                             item = [i, j / ps];
                         }
